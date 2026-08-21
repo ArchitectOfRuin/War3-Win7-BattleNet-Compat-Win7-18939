@@ -106,7 +106,7 @@ The resulting provider was tested successfully on the exact Windows 7 configurat
 
 ## Confirmed Result
 
-After installing the compatibility provider and rebooting Windows:
+After installing the compatibility provider:
 
 **Warcraft III 2.0.4.23745 → Battle.net → previous error 6:9 → resolved**
 
