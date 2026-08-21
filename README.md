@@ -41,11 +41,7 @@ Tested with:
 
 The game itself already runs normally on the target system.
 
-The problem addressed by this project is **Battle.net connectivity**, specifically error:
-
-```text
-6:9
-```
+The problem addressed by this project is **Battle.net connectivity**, specifically error: 6:9
 
 ---
 
