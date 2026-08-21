@@ -183,11 +183,42 @@ If your hashes are different, your Windows build is outside the tested configura
 
 ## Removal
 
-Use the removal procedure supplied with the original compatibility project.
+To remove the Windows 7 Battle.net compatibility provider, use the included:
 
-After removing the compatibility provider, reboot Windows before testing again.
+`Remove_Win7_v2.bat`
 
-The removal process removes the compatibility provider registration and does not require replacing the Windows cryptographic system DLLs.
+### Steps
+
+1. Close Battle.net and Warcraft III.
+2. Right-click `Remove_Win7_v2.bat`.
+3. Select **Run as administrator**.
+4. Wait for the script to finish.
+5. Check `REMOVE_REPORT.txt` for the result.
+6. Reboot Windows once.
+
+A successful removal should end with:
+
+```text
+RESULT: PASS - compatibility provider registration removed.
+```
+
+The removal script only removes the compatibility provider registration and the installed `War3Win7BattleNetCompat.dll`.
+
+It does **not** replace, modify, or remove the following Windows system files:
+
+```text
+C:\Windows\System32\schannel.dll
+C:\Windows\System32\ncrypt.dll
+C:\Windows\System32\bcrypt.dll
+C:\Windows\System32\bcryptprimitives.dll
+```
+
+### If removal reports an error
+
+Do not manually delete or replace any Windows cryptographic DLLs.
+
+Keep `REMOVE_REPORT.txt` and reboot Windows. If the provider DLL is still present after the reboot, run `Remove_Win7_v2.bat` as Administrator again.
+
 
 ---
 
