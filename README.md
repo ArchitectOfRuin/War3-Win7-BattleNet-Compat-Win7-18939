@@ -108,6 +108,15 @@ After installing the compatibility provider:
 
 The game and Battle.net connectivity worked without replacing the system cryptographic DLLs.
 
+
+### Launch Method
+
+In my case, Warcraft III was launched using a desktop shortcut that bypasses the official Battle.net launcher by adding the `-launch` parameter to the shortcut.
+
+The game was **not tested when launched directly through the official Battle.net client**.
+
+Therefore, the confirmed result applies specifically to launching Warcraft III through the `-launch` shortcut method.
+
 ---
 
 ## Compatibility Provider
