@@ -156,7 +156,7 @@ If all checks pass, the provider is registered and the configuration is verified
 
 After a successful installation:
 
-1. Reboot Windows once.
+1. Reboot Windows once. A reboot is **optional**. On some systems, Battle.net and Warcraft III may work immediately after installation. If the compatibility provider does not take effect immediately, reboot Windows once and try again.
 2. Start Battle.net.
 3. Launch Warcraft III.
 
