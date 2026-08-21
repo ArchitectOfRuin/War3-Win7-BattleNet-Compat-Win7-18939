@@ -117,6 +117,10 @@ The game was **not tested when launched directly through the official Battle.net
 
 Therefore, the confirmed result applies specifically to launching Warcraft III through the `-launch` shortcut method.
 
+## Tested Result
+
+<img width="1680" height="1050" alt="WC3ScrnShot_082126_063341_000" src="https://github.com/user-attachments/assets/14dec133-e449-4e1d-b524-8aef46c9c0cd" />
+
 ---
 
 ## Compatibility Provider
